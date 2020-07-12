@@ -17,7 +17,7 @@ public class ShipControl : MonoBehaviour
     public GameObject Explosion;
     public float timeBetweenShots;
 
-    private float mouseX, mouseY;
+    //private float mouseX, mouseY;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class ShipControl : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         GetComponent<AudioSource>().pitch = 0.5f;
         GetComponent<AudioSource>().Play();
-        mouseX = Input.mousePosition.x; mouseY = Input.mousePosition.y;
+        //mouseX = Input.mousePosition.x; mouseY = Input.mousePosition.y;
     }
 
     // Update is called once per frame
@@ -113,7 +113,7 @@ public class ShipControl : MonoBehaviour
             timeSinceDamage++;
             if (timeSinceDamage > 1500f) drain--;
             if (drain < 0) drain = 0; if (drain > shield) drain = shield; if (wounds > health) wounds = health;
-            if (inCapturePoint && capturePointOwner == "Player") wounds--;
+            if (inCapturePoint && capturePointOwner == "Player") { wounds--; if (wounds < 0) wounds = 0; }
 
             //watch for death
             if(wounds >= health)

@@ -671,7 +671,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Shield: 100.99%'
+  m_Text: TEST
 --- !u!222 &262476917
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1385,7 +1385,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Engine Setting: 100%'
+  m_Text: TEST
 --- !u!222 &845408865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3930,7 +3930,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Pts: 0000000000'
+  m_Text: TEST
 --- !u!222 &1386561585
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5639,7 +5639,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Hi: 0000000000'
+  m_Text: TEST
 --- !u!222 &1857537173
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5795,7 +5795,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Hull: 100.99%'
+  m_Text: TEST
 --- !u!222 &1968676814
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6045,7 +6045,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Current Speed: 10000'
+  m_Text: TEST
 --- !u!222 &2113053516
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6380,16 +6380,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Scout-419
-      objectReference: {fileID: 0}
-    - target: {fileID: 8628930450917398511, guid: 41e035ca61a7d77419c7075893866233,
-        type: 3}
-      propertyPath: timeBetweenShots
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8628930450917398511, guid: 41e035ca61a7d77419c7075893866233,
-        type: 3}
-      propertyPath: maxSpeed
-      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41e035ca61a7d77419c7075893866233, type: 3}

@@ -5448,7 +5448,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2b0e85432b71edc4a8a100a28329b69b, type: 3}
+  m_audioClip: {fileID: 8300000, guid: d8c48048e3de4df4fa7dff62dd628fba, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.75
   m_Pitch: 0.5
@@ -5547,7 +5547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotateSpeed: 45
-  maxSpeed: 500
+  maxSpeed: 10
   redGun: {fileID: 1290727764105530564}
   bluGun: {fileID: 1290727764664692767}
   body: {fileID: 8744997316578790643}

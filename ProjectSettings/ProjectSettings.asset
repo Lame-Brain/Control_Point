@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
+  companyName: LameBrainStudios
   productName: Control_Point
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -42,7 +42,9 @@ PlayerSettings:
   m_SplashScreenLogos:
   - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
-  - logo: {fileID: 21300000, guid: 8fefd2a3ec66af94f90ae7afb52cb20a, type: 3}
+  - logo: {fileID: 21300000, guid: eb81e21f40ae46240aa299c965fea315, type: 3}
+    duration: 2
+  - logo: {fileID: 21300000, guid: 857d11a17a0dc8f47b1cf4af171e57fb, type: 3}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -71,9 +73,9 @@ PlayerSettings:
   androidUseSwappy: 0
   androidBlitType: 0
   defaultIsNativeResolution: 1
-  macRetinaSupport: 0
-  runInBackground: 0
-  captureSingleScreen: 0
+  macRetinaSupport: 1
+  runInBackground: 1
+  captureSingleScreen: 1
   muteOtherAudioSources: 0
   Prepare IOS For Recording: 0
   Force IOS Speakers When Recording: 0
@@ -95,7 +97,7 @@ PlayerSettings:
   xboxEnableFitness: 0
   visibleInBackground: 1
   allowFullscreenSwitch: 1
-  fullscreenMode: 1
+  fullscreenMode: 2
   xboxSpeechDB: 0
   xboxEnableHeadOrientation: 0
   xboxEnableGuest: 0
@@ -125,7 +127,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.1
+  bundleVersion: .9
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
