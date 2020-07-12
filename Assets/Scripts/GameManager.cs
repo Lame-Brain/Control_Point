@@ -6,13 +6,13 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameObject[] RED_BULLET, BLU_BULLET, FOE_BULLET;
+    public static GameObject[] RED_BULLET, BLU_BULLET, FOE_BULLET;    
     public static GameObject PLAYER;
     public static GameManager GAME;
     public static int POINTS = 0, HISCORE = 0;
     public static bool PAUSED;
 
-    public GameObject redBullPF, bluBullPF, redUfoPF, bluUfoPF, foeBullPF, cp_PF;
+    public GameObject player_PF, redBullPF, bluBullPF, redUfoPF, bluUfoPF, foeBullPF, cp_PF;
     public GameObject[] ControlPoint;
     public Light mainLight;
     public GameObject stars, grid;
@@ -45,7 +45,7 @@ public class GameManager : MonoBehaviour
         //Get stored HISCORE
         if (PlayerPrefs.HasKey("HISCORE")) HISCORE = PlayerPrefs.GetInt("HISCORE");
 
-        PLAYER = GameObject.FindGameObjectWithTag("Player");
+        PLAYER = Instantiate(player_PF, Vector3.zero, Quaternion.identity);
         PAUSED = false;
         waveNum = 0;
         waveSize = 1;

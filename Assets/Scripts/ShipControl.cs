@@ -143,7 +143,11 @@ public class ShipControl : MonoBehaviour
         }
     }
 
-    public void GoToDeadScreen() { SceneManager.LoadScene("Dead"); }
+    public void GoToDeadScreen()
+    {
+        Destroy(GameManager.PLAYER);
+        SceneManager.LoadScene("Dead");
+    }
 
     public float HullPercent()
     {
