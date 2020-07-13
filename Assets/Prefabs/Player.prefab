@@ -5485,4 +5485,4 @@ MonoBehaviour:
   body: {fileID: 8744997316578790643}
   shoot_delay: 0
   Explosion: {fileID: 100004, guid: 6e8c7c425e5bc374daf95a774767b1e3, type: 3}
-  timeBetweenShots: 15
+  timeBetweenShots: 5
